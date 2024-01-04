@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+sales_extension.access_custom_order_line,access_custom_order_line,sales_extension.model_custom_order_line,base.group_user,1,1,1,1
+sales_extension.access_product_sale_view,access_product_sale_view,sales_extension.model_product_sale_view,base.group_user,1,1,1,1
+sales_extension.access_sales_custom_wizard,access_sales_custom_wizard,sales_extension.model_sales_custom_wizard,base.group_user,1,1,1,1

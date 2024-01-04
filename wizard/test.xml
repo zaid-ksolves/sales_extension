@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--    <record id="view_sale_button_form" model="ir.ui.view">-->
+<!--        <field name="name">sale.order.wizard.form</field>-->
+<!--        <field name="model">sale.order.wizard</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <form>-->
+<!--                <sheet>-->
+<!--                    <group>-->
+<!--                        <group>-->
+<!--                            <field name="sale_order_id"/>-->
+<!--                        </group>-->
+<!--                    </group>-->
+<!--                        <notebook>-->
+<!--                            <page string="Custom Order Lines" name="custom_order_lines">-->
+<!--                                <field name="custom_order_lines_wizard_id">-->
+<!--                                    <tree editable="bottom">-->
+<!--                                        <field name="name"/>-->
+<!--                                        <field name="description"/>-->
+<!--                                        <field name="quantity"/>-->
+<!--                                        <field name="delivered"/>-->
+<!--                                        <field name="invoiced"/>-->
+<!--                                        <field name="price_unit"/>-->
+<!--                                        <field name="taxes"/>-->
+<!--                                        <field name="subtotal"/>-->
+<!--                                    </tree>-->
+<!--                                </field>-->
+<!--                            </page>-->
+<!--                        </notebook>-->
+<!--                </sheet>-->
+<!--            </form>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="action_sale_button" model="ir.actions.act_window">-->
+<!--        <field name="name">Sale Wizard</field>-->
+<!--        <field name="type">ir.actions.act_window</field>-->
+<!--        <field name="res_model">sale.order.wizard</field>-->
+<!--        <field name="view_mode">form</field>-->
+<!--        <field name="target">new</field>-->
+<!--    </record>-->
+
+</odoo>
+
