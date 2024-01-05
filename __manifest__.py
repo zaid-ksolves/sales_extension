@@ -11,6 +11,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/custom_sale_view.xml',
+        'views/custom_invoice_view.xml',
         'wizard/sales_custom_wizard.xml',
 
     ]

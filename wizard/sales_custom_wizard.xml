@@ -7,6 +7,7 @@
         <field name="arch" type="xml">
             <xpath expr="//form/header/button[@name='action_cancel']" position="after">
                 <button name="%(sales_extension.action_custom_add)d" type="action" string="Add" class="btn-primary"/>
+                <button name="action_custom_invoice_btn" type="object" string="Move to invoice" class="btn-primary"/>
             </xpath>
         </field>
     </record>

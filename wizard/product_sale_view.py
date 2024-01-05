@@ -57,12 +57,12 @@ class product_sale_view(models.TransientModel):
                 'unit_price': wizard.unit_price,
                 'taxes_ids': wizard.taxes_ids,
                 'tax_excl': wizard.tax_excl,
-                # 'sale_order_id': wizard.sale_order_line.id,
+                'sale_order_id': self.sale_order_id.id,
             })
             custom_order_lines_list.append(custom_order.id)
-        self.sale_order_id.write({
-            'custom_order_line': [(6, 0, custom_order_lines_list)],
-        })
+        # self.sale_order_id.write({
+        #     'custom_order_line': [(6, 0, custom_order_lines_list)],
+        # })
 
     # def action_custom_sale(self):
     #     sale_order = self.sale_order_id
